@@ -37,7 +37,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./
-          file: ./DAfrontend/dockerfile.v1
+          file: ./dockerfile.v1
           push: true
           tags: |
             svikt02/lab7:action1
